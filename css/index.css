@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@400;900&display=swap");
+
+body {
+  background-color: white;
+  color: black;
+  max-width: 100%;
+}
+
+.header {
+  font-size: 20px;
+  margin: 10px 20px 10px 20px;
+  padding: 2px 2px 2px 2px;
+  border: 2px solid black;
+  background-color: aquamarine;
+  text-align: center;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+.leftColumn div {
+  width: 300px;
+  height: 60px;
+  background-color: darkblue;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leftColumn {
+  width: 500px;
+  margin-left: 10px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftColumn a {
+  color: #000;
+  text-decoration: none;
+}
+
+.leftColumn a:hover {
+  text-decoration: underline;
+}
+
+.leftColumn a:active {
+  color: blue;
+}
+
+.leftColumn a:visited {
+  color: black;
+}
+
+.rightColumn {
+  color: black;
+  width: 800px;
+  height: 800px;
+}
+
+.portfolioRC h3,
+.aboutMe h3,
+.contact h3 {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  color: darkblue;
+  text-align: center;
+  box-shadow: 10px 20px 30px blue;
+}
+
+#photo1 {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  margin-left: 30px;
+}
+
+#photo2 {
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+#photo3 {
+  width: 230px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.border {
+  width: 800px;
+  height: 25px;
+  background: aquamarine;
+  border: 2px solid darkblue;
+  border-radius: 25px;
+  margin: 20px auto 50px auto;
+  padding: 10px;
+}
+
+.aboutMe h4 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 200;
+  color: darkblue;
+}
+.aboutMe ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.aboutMe p:nth-of-type(2n + 1) {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-style: italic;
+  color: black;
+  text-decoration: underline;
+}
+
+.aboutMe p:nth-of-type(2n) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.contact h4 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  color: darkblue;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.contact p {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+input {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border-radius: 10px;
+  font-style: italic;
+  border: 1px solid darkblue;
+}
+
+button {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: aquamarine;
+  border-color: cornflowerblue;
+  min-width: 300px;
+  box-shadow: 10px 0 20px 0 blue;
+}
+
+.link {
+  text-align: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  width: 40%;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: darkblue;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.bottom-line {
+  margin: 25px 50px 25px 50px;
+  color: aquamarine;
+  border: 2px solid black;
+  border-radius: 30%;
+}
+
+footer {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
